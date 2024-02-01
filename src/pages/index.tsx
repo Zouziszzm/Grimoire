@@ -58,7 +58,8 @@ export default function Home() {
             </span>
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
+            this is the secound change that i have commited should not be
+            visible on the first preview.
           </p>
         </a>
 
