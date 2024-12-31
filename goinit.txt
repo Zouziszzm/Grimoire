@@ -1,2 +1,0 @@
-### file remodal created @xtc.ff
-gcc++ cammand made l plus 1
