@@ -1,0 +1,62 @@
+{
+  "menu": {
+    "name": "Menu",
+    "files": ["src/components/Menu.tsx"],
+    "dependencies": ["gsap", "lucide-react"],
+    "localDependencies": [
+      "copy",
+      "line",
+      "language-context",
+      "theme-context",
+      "translations"
+    ]
+  },
+  "copy": {
+    "name": "Copy",
+    "files": ["src/components/Copy.tsx"],
+    "dependencies": ["gsap", "@gsap/react", "split-type"],
+    "localDependencies": []
+  },
+  "line": {
+    "name": "Line",
+    "files": ["src/components/Line.tsx"],
+    "dependencies": ["gsap", "@gsap/react"],
+    "localDependencies": []
+  },
+  "reveal": {
+    "name": "Reveal",
+    "files": ["src/components/Reveal.tsx"],
+    "dependencies": ["gsap", "@gsap/react"],
+    "localDependencies": []
+  },
+  "waveline": {
+    "name": "WaveLine",
+    "files": ["src/components/WaveLine.tsx"],
+    "dependencies": [],
+    "localDependencies": []
+  },
+  "page-transition": {
+    "name": "PageTransition",
+    "files": ["src/components/PageTransition.tsx", "src/components/Logo.tsx"],
+    "dependencies": ["gsap"],
+    "localDependencies": ["language-context"]
+  },
+  "language-context": {
+    "name": "LanguageContext",
+    "files": ["src/contexts/LanguageContext.tsx"],
+    "dependencies": [],
+    "localDependencies": []
+  },
+  "theme-context": {
+    "name": "ThemeContext",
+    "files": ["src/contexts/ThemeContext.tsx"],
+    "dependencies": [],
+    "localDependencies": []
+  },
+  "translations": {
+    "name": "Translations",
+    "files": ["src/lib/translations.ts"],
+    "dependencies": [],
+    "localDependencies": []
+  }
+}
