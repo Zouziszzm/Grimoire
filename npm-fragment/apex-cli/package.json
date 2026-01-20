@@ -1,6 +1,6 @@
 {
-  "name": "@static/apex-codex-cli",
-  "version": "1.0.2",
+  "name": "apex-codex-cli",
+  "version": "1.2.0",
   "description": "",
   "type": "module",
   "files": [
