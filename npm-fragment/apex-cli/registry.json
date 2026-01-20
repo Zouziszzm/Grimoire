@@ -58,5 +58,23 @@
     "files": ["src/lib/translations.ts"],
     "dependencies": [],
     "localDependencies": []
+  },
+  "grid-flip": {
+    "name": "GridFlip",
+    "files": ["src/components/GridFlip.tsx"],
+    "dependencies": ["@react-three/fiber", "three", "@types/three", "gsap"],
+    "localDependencies": []
+  },
+  "grid-flip-scene": {
+    "name": "GridFlipScene",
+    "files": ["src/components/GridFlipScene.tsx", "src/lib/gridFlipUtils.ts"],
+    "dependencies": [
+      "@react-three/fiber",
+      "@react-three/drei",
+      "three",
+      "@types/three",
+      "gsap"
+    ],
+    "localDependencies": ["grid-flip"]
   }
 }

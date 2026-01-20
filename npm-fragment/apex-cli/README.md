@@ -51,6 +51,8 @@ _Example: Adding the `menu` component will automatically install the `Copy` comp
 - **Reveal**: Slide-up block reveals.
 - **PageTransition**: Complete page transition logic.
 - **WaveLine**: Animated SVG wave effect.
+- **GridFlip**: Animated grid component with flip-dot and random pop effects.
+- **GridFlipScene**: Complete Three.js scene wrapper for GridFlip.
 
 ## Configuration
 
